@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkINTERVAL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkPPLOT.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtInsetOptions.Name" xml:space="preserve">
+    <value>txtInsetOptions</value>
+  </data>
+  <data name="chkSHAPE.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;chkINSET.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkRIGHT.Text" xml:space="preserve">
+    <value>Number of right-censored observations </value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="chkRIGHT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 157</value>
+  </data>
+  <data name="groupInset.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;chkPPLOT.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkDIST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>140, 17</value>
+  </data>
+  <data name="chkINSET.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 129</value>
+  </data>
+  <data name="&gt;&gt;chkNMISS.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="chkINSET.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupInset.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkPPLOT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkRIGHT.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblPlotOptions.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkSCALE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkSCALE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkSCALE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtInsetOptions.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtPlotOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblInsetOption.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkINTERVAL.Name" xml:space="preserve">
+    <value>chkINTERVAL</value>
+  </data>
+  <data name="chkINTERVAL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkNMISS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNMISS.Name" xml:space="preserve">
+    <value>chkNMISS</value>
+  </data>
+  <data name="chkNOBS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>138, 17</value>
+  </data>
+  <data name="chkUNCENSORED.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 17</value>
+  </data>
+  <data name="chkINSET.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupPlot.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 472</value>
+  </data>
+  <data name="&gt;&gt;chkNOBS.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkNMISS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCONFIDENCE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="&gt;&gt;txtPlotOptions.Name" xml:space="preserve">
+    <value>txtPlotOptions</value>
+  </data>
+  <data name="lblPlotOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="chkLEFT.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="chkRIGHT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 17</value>
+  </data>
+  <data name="chkNMISS.Text" xml:space="preserve">
+    <value>Number of observations with missing values</value>
+  </data>
+  <data name="chkLEFT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 88</value>
+  </data>
+  <data name="&gt;&gt;chkSCALE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="chkCONFIDENCE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkSCALE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="&gt;&gt;chkLEFT.Name" xml:space="preserve">
+    <value>chkLEFT</value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="chkDIST.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkNOBS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 111</value>
+  </data>
+  <data name="groupPlot.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblInsetOption.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="txtInsetOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 246</value>
+  </data>
+  <data name="&gt;&gt;chkSHAPE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNOBS.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkSHAPE.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;chkRIGHT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNOBS.Name" xml:space="preserve">
+    <value>chkNOBS</value>
+  </data>
+  <data name="&gt;&gt;chkLEFT.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="&gt;&gt;chkINSET.Name" xml:space="preserve">
+    <value>chkINSET</value>
+  </data>
+  <data name="chkNMISS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtInsetOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtInsetOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="txtPlotOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>129, 13</value>
+  </data>
+  <data name="chkLEFT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlotOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>700, 110</value>
+  </data>
+  <data name="&gt;&gt;chkUNCENSORED.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkCONFIDENCE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 17</value>
+  </data>
+  <data name="lblPlotOptions.Text" xml:space="preserve">
+    <value>Plot options</value>
+  </data>
+  <data name="&gt;&gt;groupInset.Name" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="&gt;&gt;chkNMISS.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkINTERVAL.Text" xml:space="preserve">
+    <value>Number of interval-censored observations </value>
+  </data>
+  <data name="&gt;&gt;chkCONFIDENCE.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkNOBS.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupPlot.Name" xml:space="preserve">
+    <value>groupPlot</value>
+  </data>
+  <data name="txtInsetOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>694, 62</value>
+  </data>
+  <data name="groupPlot.Text" xml:space="preserve">
+    <value>Plot specification</value>
+  </data>
+  <data name="&gt;&gt;chkDIST.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkPPLOT.Text" xml:space="preserve">
+    <value>Enable probabilty plot</value>
+  </data>
+  <data name="chkUNCENSORED.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="chkSHAPE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkINTERVAL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 65</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PlotControl</value>
+  </data>
+  <data name="&gt;&gt;chkPPLOT.Name" xml:space="preserve">
+    <value>chkPPLOT</value>
+  </data>
+  <data name="chkUNCENSORED.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 226</value>
+  </data>
+  <data name="groupInset.Size" type="System.Drawing.Size, System.Drawing">
+    <value>823, 314</value>
+  </data>
+  <data name="groupInset.Text" xml:space="preserve">
+    <value>Inset</value>
+  </data>
+  <data name="chkNMISS.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 134</value>
+  </data>
+  <data name="chkSCALE.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="groupPlot.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 27</value>
+  </data>
+  <data name="&gt;&gt;chkSHAPE.Name" xml:space="preserve">
+    <value>chkSHAPE</value>
+  </data>
+  <data name="&gt;&gt;lblInsetOption.Name" xml:space="preserve">
+    <value>lblInsetOption</value>
+  </data>
+  <data name="chkUNCENSORED.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkNMISS.Size" type="System.Drawing.Size, System.Drawing">
+    <value>231, 17</value>
+  </data>
+  <data name="chkSHAPE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkINSET.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblInsetOption.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkUNCENSORED.Name" xml:space="preserve">
+    <value>chkUNCENSORED</value>
+  </data>
+  <data name="chkCONFIDENCE.Text" xml:space="preserve">
+    <value>Confidence coefficient for all confidence intervals </value>
+  </data>
+  <data name="&gt;&gt;chkINTERVAL.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblInsetOption.Text" xml:space="preserve">
+    <value>Inset options</value>
+  </data>
+  <data name="&gt;&gt;chkNOBS.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkUNCENSORED.Text" xml:space="preserve">
+    <value>Number of uncensored observations </value>
+  </data>
+  <data name="&gt;&gt;chkUNCENSORED.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkLEFT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkCONFIDENCE.Name" xml:space="preserve">
+    <value>chkCONFIDENCE</value>
+  </data>
+  <data name="&gt;&gt;txtInsetOptions.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkSCALE.Text" xml:space="preserve">
+    <value>Value of the scale parameter</value>
+  </data>
+  <data name="&gt;&gt;txtPlotOptions.Parent" xml:space="preserve">
+    <value>groupPlot</value>
+  </data>
+  <data name="groupPlot.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="chkSHAPE.Text" xml:space="preserve">
+    <value>Value of the shape parameter </value>
+  </data>
+  <data name="chkINSET.Size" type="System.Drawing.Size, System.Drawing">
+    <value>84, 17</value>
+  </data>
+  <data name="&gt;&gt;chkPPLOT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkINTERVAL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblPlotOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 13</value>
+  </data>
+  <data name="&gt;&gt;lblPlotOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkDIST.Text" xml:space="preserve">
+    <value>Name of the distribution </value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 500</value>
+  </data>
+  <data name="&gt;&gt;groupInset.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkDIST.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkPPLOT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkLEFT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupInset.Parent" xml:space="preserve">
+    <value>groupPlot</value>
+  </data>
+  <data name="&gt;&gt;chkSCALE.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="lblInsetOption.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 246</value>
+  </data>
+  <data name="chkDIST.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkLEFT.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="chkUNCENSORED.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtPlotOptions.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCONFIDENCE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkINTERVAL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>225, 17</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MarcinSzymanski.Shared.Classess.TaskControl, MarcinSzymanski.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="chkRIGHT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkINSET.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkPPLOT.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;groupPlot.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="chkSCALE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 180</value>
+  </data>
+  <data name="chkINSET.Text" xml:space="preserve">
+    <value>Enable inset</value>
+  </data>
+  <data name="lblInsetOption.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="chkSHAPE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 203</value>
+  </data>
+  <data name="&gt;&gt;lblPlotOptions.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lblPlotOptions.Parent" xml:space="preserve">
+    <value>groupPlot</value>
+  </data>
+  <data name="chkINTERVAL.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="chkLEFT.Text" xml:space="preserve">
+    <value>Number of left-censored observations </value>
+  </data>
+  <data name="&gt;&gt;chkCONFIDENCE.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="txtInsetOptions.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;groupPlot.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="chkLEFT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>205, 17</value>
+  </data>
+  <data name="&gt;&gt;chkINSET.Parent" xml:space="preserve">
+    <value>groupPlot</value>
+  </data>
+  <data name="chkSHAPE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 17</value>
+  </data>
+  <data name="&gt;&gt;groupInset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNOBS.Text" xml:space="preserve">
+    <value>Number of observations		</value>
+  </data>
+  <data name="chkRIGHT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCONFIDENCE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkDIST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="&gt;&gt;chkUNCENSORED.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;chkDIST.Name" xml:space="preserve">
+    <value>chkDIST</value>
+  </data>
+  <data name="&gt;&gt;chkDIST.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblPlotOptions.Name" xml:space="preserve">
+    <value>lblPlotOptions</value>
+  </data>
+  <data name="chkNOBS.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblPlotOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 16</value>
+  </data>
+  <data name="&gt;&gt;txtPlotOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="chkNMISS.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;chkSHAPE.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="chkNOBS.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupInset.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 152</value>
+  </data>
+  <data name="&gt;&gt;lblInsetOption.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="&gt;&gt;chkRIGHT.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="&gt;&gt;chkRIGHT.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="chkPPLOT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>127, 17</value>
+  </data>
+  <data name="&gt;&gt;chkRIGHT.Name" xml:space="preserve">
+    <value>chkRIGHT</value>
+  </data>
+  <data name="chkCONFIDENCE.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;groupPlot.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkDIST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPlotOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInsetOption.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="chkPPLOT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="&gt;&gt;chkINTERVAL.Parent" xml:space="preserve">
+    <value>groupInset</value>
+  </data>
+  <data name="&gt;&gt;chkSCALE.Name" xml:space="preserve">
+    <value>chkSCALE</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pl</value>
+  </metadata>
+</root>

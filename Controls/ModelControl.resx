@@ -1,0 +1,1014 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="txtSHAPE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;txtSHAPE1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtMAXITER.Name" xml:space="preserve">
+    <value>txtMAXITER</value>
+  </data>
+  <data name="&gt;&gt;groupSpecification.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;chkNOINT.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="chkITPRINT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 17</value>
+  </data>
+  <data name="groupSpecification.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 77</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="chkNOINT.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblINTERCEPT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCOVB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblMAXITER.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupModelType.Text" xml:space="preserve">
+    <value>Model type</value>
+  </data>
+  <data name="&gt;&gt;chkNOSCALE.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="chkCOVB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>158, 17</value>
+  </data>
+  <data name="chkNOSCALE.Text" xml:space="preserve">
+    <value>Hold the scale parameter fixed</value>
+  </data>
+  <data name="txtSHAPE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 233</value>
+  </data>
+  <data name="&gt;&gt;txtMAXITER.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNOLOG.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="radioModelType2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>130, 17</value>
+  </data>
+  <data name="&gt;&gt;txtCensors.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblDIST.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="lblMAXITER.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 45</value>
+  </data>
+  <data name="radioModelType1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 17</value>
+  </data>
+  <data name="&gt;&gt;groupFitting.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblSINGULAR.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtINTERCEPT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtCONVERGE.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lblSCALE.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>ModelControl</value>
+  </data>
+  <data name="&gt;&gt;lblDIST.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="lblCONVERGE.Text" xml:space="preserve">
+    <value>Convergence criterion</value>
+  </data>
+  <data name="&gt;&gt;txtINITIAL.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;groupOutput.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="groupSpecification.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="lblINTERCEPT.Text" xml:space="preserve">
+    <value>Intercept value</value>
+  </data>
+  <data name="lblSCALE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>113, 13</value>
+  </data>
+  <data name="&gt;&gt;lblALPHA.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblSINGULAR.Name" xml:space="preserve">
+    <value>lblSINGULAR</value>
+  </data>
+  <data name="&gt;&gt;lblALPHA.Name" xml:space="preserve">
+    <value>lblALPHA</value>
+  </data>
+  <data name="radioModelType2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 42</value>
+  </data>
+  <data name="txtSCALE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 183</value>
+  </data>
+  <data name="&gt;&gt;lblDIST.Name" xml:space="preserve">
+    <value>lblDIST</value>
+  </data>
+  <data name="chkNOINT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="cmbDIST.Items1" xml:space="preserve">
+    <value>GAMMA </value>
+  </data>
+  <data name="&gt;&gt;chkNOINT.Name" xml:space="preserve">
+    <value>chkNOINT</value>
+  </data>
+  <data name="lblALPHA.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lblMAXITER.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblINITIAL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 13</value>
+  </data>
+  <data name="&gt;&gt;radioModelType1.Parent" xml:space="preserve">
+    <value>groupModelType</value>
+  </data>
+  <data name="&gt;&gt;lblMAXITER.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="chkITPRINT.Text" xml:space="preserve">
+    <value>Iteration history</value>
+  </data>
+  <data name="chkNOSCALE.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;chkNOSCALE.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbDIST.Name" xml:space="preserve">
+    <value>cmbDIST</value>
+  </data>
+  <data name="chkNOINT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblDIST.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="chkCORRB.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 17</value>
+  </data>
+  <data name="&gt;&gt;txtSINGULAR.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="&gt;&gt;txtINITIAL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDIST.Items2" xml:space="preserve">
+    <value>LLOGISTIC </value>
+  </data>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="lblDIST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>82, 13</value>
+  </data>
+  <data name="&gt;&gt;chkCOVB.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblALPHA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNOSCALE.Name" xml:space="preserve">
+    <value>chkNOSCALE</value>
+  </data>
+  <data name="txtMAXITER.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 42</value>
+  </data>
+  <data name="&gt;&gt;txtALPHA.Name" xml:space="preserve">
+    <value>txtALPHA</value>
+  </data>
+  <data name="lblALPHA.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtALPHA.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="radioModelType1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="chkITPRINT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="cmbDIST.Items3" xml:space="preserve">
+    <value>LNORMAL </value>
+  </data>
+  <data name="txtINITIAL.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtINITIAL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 74</value>
+  </data>
+  <data name="lblINITIAL.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblALPHA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 22</value>
+  </data>
+  <data name="txtCONVERGE.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;groupOutput.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblINTERCEPT.Name" xml:space="preserve">
+    <value>lblINTERCEPT</value>
+  </data>
+  <data name="&gt;&gt;radioModelType2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="txtSINGULAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtCensors.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 18</value>
+  </data>
+  <data name="&gt;&gt;txtSCALE.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="groupFitting.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 359</value>
+  </data>
+  <data name="&gt;&gt;chkCORRB.Name" xml:space="preserve">
+    <value>chkCORRB</value>
+  </data>
+  <data name="&gt;&gt;chkITPRINT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtINITIAL.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupModelType.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="groupOutput.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 40</value>
+  </data>
+  <data name="lblMAXITER.Text" xml:space="preserve">
+    <value>Maximum number of iterations</value>
+  </data>
+  <data name="txtSINGULAR.Text" xml:space="preserve">
+    <value>0.00000000001</value>
+  </data>
+  <data name="groupModelType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="txtCONVERGE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;chkNOLOG.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lblINTERCEPT.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;chkNOSHAPE1.Name" xml:space="preserve">
+    <value>chkNOSHAPE1</value>
+  </data>
+  <data name="chkNOINT.Text" xml:space="preserve">
+    <value>Hold the intercept term fixed </value>
+  </data>
+  <data name="&gt;&gt;txtINTERCEPT.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="chkNOSHAPE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 235</value>
+  </data>
+  <data name="&gt;&gt;cmbDIST.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="cmbDIST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 46</value>
+  </data>
+  <data name="lblSCALE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 186</value>
+  </data>
+  <data name="&gt;&gt;txtCensors.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtCensors.Name" xml:space="preserve">
+    <value>txtCensors</value>
+  </data>
+  <data name="&gt;&gt;radioModelType1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSCALE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupModelType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMAXITER.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="chkNOINT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 135</value>
+  </data>
+  <data name="lblDIST.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 49</value>
+  </data>
+  <data name="txtCONVERGE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 16</value>
+  </data>
+  <data name="&gt;&gt;txtSCALE.Name" xml:space="preserve">
+    <value>txtSCALE</value>
+  </data>
+  <data name="txtSCALE.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblCONVERGE.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="&gt;&gt;chkCOVB.Name" xml:space="preserve">
+    <value>chkCOVB</value>
+  </data>
+  <data name="&gt;&gt;lblINITIAL.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtALPHA.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;groupModelType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="cmbDIST.Items" xml:space="preserve">
+    <value>EXPONENTIAL </value>
+  </data>
+  <data name="txtMAXITER.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;radioModelType2.Name" xml:space="preserve">
+    <value>radioModelType2</value>
+  </data>
+  <data name="chkNOSCALE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 185</value>
+  </data>
+  <data name="chkCOVB.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioModelType1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 19</value>
+  </data>
+  <data name="lblALPHA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="&gt;&gt;groupModelType.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtSHAPE1.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;groupOutput.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblINITIAL.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblMAXITER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>146, 13</value>
+  </data>
+  <data name="&gt;&gt;lblMAXITER.Name" xml:space="preserve">
+    <value>lblMAXITER</value>
+  </data>
+  <data name="chkITPRINT.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;lblCONVERGE.Name" xml:space="preserve">
+    <value>lblCONVERGE</value>
+  </data>
+  <data name="&gt;&gt;groupModelType.Name" xml:space="preserve">
+    <value>groupModelType</value>
+  </data>
+  <data name="chkCORRB.Text" xml:space="preserve">
+    <value>Estimated correlation matrix</value>
+  </data>
+  <data name="lblSINGULAR.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtCONVERGE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtCensors.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="groupOutput.Text" xml:space="preserve">
+    <value>Output</value>
+  </data>
+  <data name="&gt;&gt;lblALPHA.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;radioModelType1.Name" xml:space="preserve">
+    <value>radioModelType1</value>
+  </data>
+  <data name="&gt;&gt;txtCONVERGE.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="&gt;&gt;txtSCALE.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblMAXITER.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblSCALE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCORRB.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lblINTERCEPT.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkNOLOG.Name" xml:space="preserve">
+    <value>chkNOLOG</value>
+  </data>
+  <data name="&gt;&gt;txtCONVERGE.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="txtALPHA.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;txtSINGULAR.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE1.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="lblINITIAL.Text" xml:space="preserve">
+    <value>Initial parameter estimates</value>
+  </data>
+  <data name="radioModelType1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCONVERGE.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="txtSINGULAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 68</value>
+  </data>
+  <data name="&gt;&gt;groupSpecification.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblSCALE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 13</value>
+  </data>
+  <data name="lblCONVERGE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkCOVB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtSHAPE1.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;chkNOSHAPE1.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;groupFitting.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblALPHA.Text" xml:space="preserve">
+    <value>Significance level</value>
+  </data>
+  <data name="lblSCALE1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblINITIAL.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="groupFitting.Text" xml:space="preserve">
+    <value>Model fitting</value>
+  </data>
+  <data name="chkITPRINT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>426, 17</value>
+  </data>
+  <data name="lblSINGULAR.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="lblSCALE1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblDIST.Text" xml:space="preserve">
+    <value>Distribution type</value>
+  </data>
+  <data name="chkNOSCALE.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 500</value>
+  </data>
+  <data name="txtMAXITER.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="txtMAXITER.Text" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="lblSCALE1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 240</value>
+  </data>
+  <data name="&gt;&gt;radioModelType2.Parent" xml:space="preserve">
+    <value>groupModelType</value>
+  </data>
+  <data name="lblSINGULAR.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="groupModelType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 70</value>
+  </data>
+  <data name="chkNOSHAPE1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 17</value>
+  </data>
+  <data name="chkCORRB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 17</value>
+  </data>
+  <data name="&gt;&gt;lblINTERCEPT.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE.Name" xml:space="preserve">
+    <value>lblSCALE</value>
+  </data>
+  <data name="chkCOVB.Location" type="System.Drawing.Point, System.Drawing">
+    <value>235, 17</value>
+  </data>
+  <data name="radioModelType2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="txtSINGULAR.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="&gt;&gt;chkITPRINT.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;txtALPHA.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCONVERGE.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="groupFitting.Size" type="System.Drawing.Size, System.Drawing">
+    <value>832, 95</value>
+  </data>
+  <data name="&gt;&gt;radioModelType1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSpecification.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblINITIAL.Name" xml:space="preserve">
+    <value>lblINITIAL</value>
+  </data>
+  <data name="chkNOLOG.Size" type="System.Drawing.Size, System.Drawing">
+    <value>187, 17</value>
+  </data>
+  <data name="&gt;&gt;txtCensors.Parent" xml:space="preserve">
+    <value>groupModelType</value>
+  </data>
+  <data name="chkNOSCALE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>169, 17</value>
+  </data>
+  <data name="&gt;&gt;txtINTERCEPT.Name" xml:space="preserve">
+    <value>txtINTERCEPT</value>
+  </data>
+  <data name="&gt;&gt;chkITPRINT.Parent" xml:space="preserve">
+    <value>groupOutput</value>
+  </data>
+  <data name="lblINTERCEPT.Size" type="System.Drawing.Size, System.Drawing">
+    <value>78, 13</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtSINGULAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkCORRB.Parent" xml:space="preserve">
+    <value>groupOutput</value>
+  </data>
+  <data name="chkITPRINT.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;txtMAXITER.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="txtALPHA.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>MarcinSzymanski.Shared.Classess.TaskControl, MarcinSzymanski.Shared, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
+  <data name="&gt;&gt;groupFitting.Name" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="txtMAXITER.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSINGULAR.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 68</value>
+  </data>
+  <data name="&gt;&gt;txtINITIAL.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="chkNOLOG.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkNOLOG.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="chkNOSHAPE1.Text" xml:space="preserve">
+    <value>Hold the first shape parameter fixed</value>
+  </data>
+  <data name="chkNOLOG.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 100</value>
+  </data>
+  <data name="lblINTERCEPT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 136</value>
+  </data>
+  <data name="&gt;&gt;lblINTERCEPT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkCOVB.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;chkNOSCALE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkNOSHAPE1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="txtALPHA.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 19</value>
+  </data>
+  <data name="txtCensors.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="txtALPHA.Text" xml:space="preserve">
+    <value>0.05</value>
+  </data>
+  <data name="lblALPHA.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;txtSINGULAR.Name" xml:space="preserve">
+    <value>txtSINGULAR</value>
+  </data>
+  <data name="radioModelType2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="txtALPHA.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Right</value>
+  </data>
+  <data name="chkNOLOG.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lblSCALE1.Text" xml:space="preserve">
+    <value>First shape parameter value</value>
+  </data>
+  <data name="lblCONVERGE.Location" type="System.Drawing.Point, System.Drawing">
+    <value>7, 19</value>
+  </data>
+  <data name="txtSCALE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 20</value>
+  </data>
+  <data name="&gt;&gt;txtCONVERGE.Name" xml:space="preserve">
+    <value>txtCONVERGE</value>
+  </data>
+  <data name="&gt;&gt;lblINTERCEPT.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;groupOutput.Name" xml:space="preserve">
+    <value>groupOutput</value>
+  </data>
+  <data name="txtSINGULAR.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;groupFitting.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;lblMAXITER.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNOLOG.Text" xml:space="preserve">
+    <value>No log transformation of response </value>
+  </data>
+  <data name="lblSINGULAR.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkITPRINT.Name" xml:space="preserve">
+    <value>chkITPRINT</value>
+  </data>
+  <data name="&gt;&gt;chkNOSHAPE1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblSINGULAR.Text" xml:space="preserve">
+    <value>Tolerance for testing singularity</value>
+  </data>
+  <data name="&gt;&gt;chkNOINT.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblCONVERGE.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chkNOSHAPE1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="radioModelType2.Text" xml:space="preserve">
+    <value>(lower,upper) = effects</value>
+  </data>
+  <data name="&gt;&gt;lblSCALE1.Name" xml:space="preserve">
+    <value>lblSCALE1</value>
+  </data>
+  <data name="&gt;&gt;txtINTERCEPT.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="lblINITIAL.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblSCALE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtINTERCEPT.Location" type="System.Drawing.Point, System.Drawing">
+    <value>238, 133</value>
+  </data>
+  <data name="&gt;&gt;txtMAXITER.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;txtSHAPE1.Name" xml:space="preserve">
+    <value>txtSHAPE1</value>
+  </data>
+  <data name="cmbDIST.Items4" xml:space="preserve">
+    <value>LOGISTIC </value>
+  </data>
+  <data name="&gt;&gt;radioModelType2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDIST.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="groupOutput.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="groupFitting.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblDIST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtSHAPE1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="chkNOSCALE.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblSCALE1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="&gt;&gt;chkCOVB.Parent" xml:space="preserve">
+    <value>groupOutput</value>
+  </data>
+  <data name="lblCONVERGE.Size" type="System.Drawing.Size, System.Drawing">
+    <value>111, 13</value>
+  </data>
+  <data name="&gt;&gt;chkCORRB.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="lblINITIAL.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 77</value>
+  </data>
+  <data name="lblSCALE.Text" xml:space="preserve">
+    <value>Scale parameter value</value>
+  </data>
+  <data name="cmbDIST.Size" type="System.Drawing.Size, System.Drawing">
+    <value>150, 21</value>
+  </data>
+  <data name="chkCORRB.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;chkCORRB.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;lblINITIAL.Parent" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="&gt;&gt;cmbDIST.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="cmbDIST.Items5" xml:space="preserve">
+    <value>NORMAL </value>
+  </data>
+  <data name="&gt;&gt;cmbDIST.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;lblSINGULAR.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupSpecification.Name" xml:space="preserve">
+    <value>groupSpecification</value>
+  </data>
+  <data name="cmbDIST.Items6" xml:space="preserve">
+    <value>WEIBULL </value>
+  </data>
+  <data name="groupSpecification.Text" xml:space="preserve">
+    <value>Model specification</value>
+  </data>
+  <data name="chkNOSHAPE1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="lblDIST.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="chkCOVB.Text" xml:space="preserve">
+    <value>Estimated covariance matrix</value>
+  </data>
+  <data name="&gt;&gt;chkNOINT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="txtINTERCEPT.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;txtINITIAL.Name" xml:space="preserve">
+    <value>txtINITIAL</value>
+  </data>
+  <data name="txtCONVERGE.Text" xml:space="preserve">
+    <value>0.00000001</value>
+  </data>
+  <data name="&gt;&gt;lblDIST.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblSINGULAR.Parent" xml:space="preserve">
+    <value>groupFitting</value>
+  </data>
+  <data name="groupOutput.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 460</value>
+  </data>
+  <data name="radioModelType1.Text" xml:space="preserve">
+    <value>response &lt;*censor(list)&gt; = effects</value>
+  </data>
+  <data name="groupSpecification.Size" type="System.Drawing.Size, System.Drawing">
+    <value>835, 276</value>
+  </data>
+  <data name="chkNOSHAPE1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;txtINTERCEPT.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>pl</value>
+  </metadata>
+</root>
